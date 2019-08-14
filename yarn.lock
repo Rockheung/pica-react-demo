@@ -4225,6 +4225,11 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+glur@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/glur/-/glur-1.1.2.tgz#f20ea36db103bfc292343921f1f91e83c3467689"
+  integrity sha1-8g6jbbEDv8KSNDkh8fkeg8NGdok=
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.1.tgz#1c1f0c364882c868f5bff6512146328336a11b1d"
@@ -6129,6 +6134,14 @@ multicast-dns@^6.0.1:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
 
+multimath@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/multimath/-/multimath-2.0.0.tgz#0d37acf67c328f30e3d8c6b0d3209e6082710302"
+  integrity sha512-toRx66cAMJ+Ccz7pMIg38xSIrtnbozk0dchXezwQDMgQmbGpfxjtv68H+L00iFL8hxDaVjrmwAFSb3I6bg8Q2g==
+  dependencies:
+    glur "^1.1.2"
+    object-assign "^4.1.1"
+
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -6796,6 +6809,16 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
+pica@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/pica/-/pica-5.1.0.tgz#042d58730f32f3f014eb099e7d204474f7d14e49"
+  integrity sha512-1sr5HOypUfWT+oP/PXEZaF+kOBxhr+iMo4MEBSTNIHSjF/aGOCIWcjHjKTa0FKZ+BsPx5LmxYuNf4FoCckI3lQ==
+  dependencies:
+    inherits "^2.0.3"
+    multimath "^2.0.0"
+    object-assign "^4.1.1"
+    webworkify "^1.5.0"
 
 pify@^2.0.0:
   version "2.3.0"
@@ -7812,7 +7835,7 @@ react-dev-utils@^9.0.2:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.9.0:
+react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   integrity sha512-YFT2rxO9hM70ewk9jq0y6sQk8cL02xm4+IzYBz75CQGlClQQ1Bxq0nhHF6OtSbit+AIahujJgb/CPRibFkMNJQ==
@@ -7893,7 +7916,7 @@ react-scripts@3.1.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.9.0:
+react@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
   integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
@@ -9582,6 +9605,11 @@ websocket-extensions@>=0.1.1:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
   integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+
+webworkify@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/webworkify/-/webworkify-1.5.0.tgz#734ad87a774de6ebdd546e1d3e027da5b8f4a42c"
+  integrity sha512-AMcUeyXAhbACL8S2hqqdqOLqvJ8ylmIbNwUIqQujRSouf4+eUFaXbG6F1Rbu+srlJMmxQWsiU7mOJi0nMBfM1g==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
